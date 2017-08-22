@@ -1,0 +1,6 @@
+<?php
+  /*
+  * content Template
+  */
+
+ ?>
