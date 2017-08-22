@@ -64,6 +64,12 @@ wp_enqueue_style( 'foundation_min', get_template_directory_uri().'/css/foundatio
 };
 add_action( 'wp_enqueue_scripts', 'medialine_themes_script');
 
+//inclued Google Fonts
+function wp_site_Google_font(){
+  wp_enqueue_style( 'wp Google fonts ' , 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' , false);
+
+}
+add_action( 'wp_enqueue_scripts' , 'wp_site_Google_font' );
 //incloads Themes Script
 function medialine_script_themes(){
 
